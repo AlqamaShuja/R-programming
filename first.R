@@ -36,6 +36,65 @@ if(is.integer(x)){
 }
 
 
+x<-switch(14, "Alqama", "Usama", "Noman", "Talha")
+y<-1
+z<-switch(y, "1"=1, "2"="Usama", "3"="Noman")
+
+ab<-c(1, 2, 3, 4, 5)
+cd<-6:12
+typeof(cd)
+
+
+for(i in ab){
+  print(i)
+}
+
+
+myData = c("a", "b", 1)
+myData2 = c(TRUE, 1, 2, "3")
+
+for(i in myData2){
+  print(typeof(as.integer(i)))
+}
+
+x = 1
+repeat{
+  print(x)
+  x=x+1
+  if(x==7){
+    break
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
