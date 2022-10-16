@@ -68,25 +68,40 @@ repeat{
 
 
 
+ax = scan("abc.txt", what=" ")
+print(ax)
+
+print(with(ax))
+
+for(i in ax){
+  print(i)
+}
 
 
 
 
+myFunc = function(){
+  x = 10 + 12
+  return(x)
+}
+
+myVal = myFunc()
+print(myVal)
 
 
+a1 = c(0:10, 40)
+print(a1)
+
+myList1 = list("alqama", "saim", "shahzain", "emad", 32, 35, 21, 22)
+print(myList1[3][1])
+print(myList1[3][2])
+print(myList1)
 
 
-
-
-
-
-
-
-
-
-
-
-
+students = list(c("ali", "hussain", "hassan", "Muavia", "zubair"), c(20, 19, 18, 17, 15), c("B12", "B14", "B16", "B18", "B20"))
+names(students) = c("name", "marks", "id")
+print(students["name"])
+print(students[1])
 
 
 
